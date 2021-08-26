@@ -3,14 +3,14 @@ class Box {
        int length;
        int width;
        int height;
+
     public:
     
-    int set
-       void setlength(int l);
-       void setwidth(int w);
-       void setheight(int h);
-       int getlength();
-       int getwidth();
-       int getheight();
+       void setLength(int l);
+       void setWidth(int w);
+       void setHeight(int h);
+       int getLength();
+       int getWidth();
+       int getHeight();
        int calcVolume();
 };
